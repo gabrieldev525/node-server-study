@@ -1,0 +1,48 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+* {
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+#menu {
+    width: 100%;
+    display: flex;
+    height: 70px;
+    background-color: #032859;
+    align-items: center;
+}
+
+#menu ul {
+    display: flex;
+    margin-left: auto;
+    padding: 0;
+    list-style-type: none;
+}
+#menu li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    width: 40%;
+    padding: 3%;
+    box-shadow: 1px 1px 4px #ccc;
+    border-radius: 14px;
+    margin: 4% auto;
+    text-align: center;
+}
+.content .profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 1% auto;
+}
